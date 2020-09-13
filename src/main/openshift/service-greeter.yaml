@@ -6,17 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/klenkes74/knative-helloworld:1.0.0-SNAPSHOT
+        - image: quay.io/klenkes74/knative-helloworld:1.0.6-SNAPSHOT
           env:
             - name: TARGET
               value: "Quarkus Sample v1"
-            - name: PODNAME
-              valueFrom:
-                fieldRef:
-                  apiVersion: v1
-                  fieldPath: metadata.name
-            - name: KUBERNETES_NAMESPACE
-              valueFrom:
-                fieldRef:
-                  apiVersion: v1
-                  fieldPath: metadata.namespace
