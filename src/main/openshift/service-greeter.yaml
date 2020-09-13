@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/klenkes74/knative-helloworld:1.0.6-SNAPSHOT
+        - image: quay.io/klenkes74/knative-helloworld:1.0.1
           env:
             - name: TARGET
               value: "Quarkus Sample v1"
