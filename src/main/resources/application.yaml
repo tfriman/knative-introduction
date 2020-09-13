@@ -1,0 +1,4 @@
+---
+quarkus:
+  http:
+    port: ${PORT:8080}

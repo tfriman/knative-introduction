@@ -1,0 +1,5 @@
+FROM registry.fedoraproject.org/fedora-minimal
+
+COPY ../../../target/*-runner /app
+
+ENTRYPOINT [ "/app" ]

@@ -1,11 +1,11 @@
-# PROJECT - slag line
+# KNATIVE-DEMO - just a small demo
 
 > What man is a man who does not make the world better.
 >
 > -- Balian, Kingdom of Heaven
 
 ## Abstract
-
+Just a small demonstration for knative.
 
 ## License
 The license for the software is LGPL 3.0 or newer. 
@@ -24,13 +24,7 @@ wrong. But every line that needs not be written is a bug free line without need 
 
 
 ## A note from the author
-I'm working on another project that can be found on github [(PROJECT)](https://github.com/klenkes74/PROJECT). And while
-developing that piece of software I ran on the blocker not being able to nicely handle OIDC UMA. I looked around and
-found no library to abstract away UMA from my code. So I decided to write one.
-
-If someone is interested in getting it faster, we may team up. I'm open for that. But be warned: I want to do it 
-_right_. So no short cuts to get faster. And be prepared for some basic discussions about the architecture or software 
-design :-).
+This is a small demo for knative written for the OpenShift Meetup Frankfurt am Main.
 
 ---
-CITY, DATE
+Bensheim, 2020-09-12
